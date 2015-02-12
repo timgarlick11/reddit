@@ -55,7 +55,7 @@ In our view we have a form, that current has 3 input fields and a submit button.
 - Add ng-click to the submit button that runs a function called addPost()
 - In the controller we need to create our addPost function
   - Create a function that runs FirebaseService.addPost()
-  - Pass in $scope.newPost to firebaseService.addPost()
+  - Pass in $scope.newPost to FirebaseService.addPost()
 - Go to our firebaseService and create a new function called this.addPost that takes in the post as a parameter
 
 We are going to want to add some things to our post object other than title body and author. For instance we will want a unique id, as well as a timestamp and some other things.
